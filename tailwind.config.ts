@@ -22,10 +22,19 @@ export default {
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
+          light: "hsl(var(--primary-light))",
+          dark: "hsl(var(--primary-dark))",
         },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
           foreground: "hsl(var(--secondary-foreground))",
+        },
+        campus: {
+          blue: "hsl(var(--campus-blue))",
+          gold: "hsl(var(--campus-gold))",
+          green: "hsl(var(--campus-green))",
+          red: "hsl(var(--campus-red))",
+          purple: "hsl(var(--campus-purple))",
         },
         destructive: {
           DEFAULT: "hsl(var(--destructive))",
